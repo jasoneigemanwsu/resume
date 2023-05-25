@@ -1,0 +1,122 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  .container {
+    margin: 20px;
+  }
+  
+  /* Section heading styles */
+  .section-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Work experience styles */
+  .work-experience {
+    margin-bottom: 20px;
+  }
+  
+  .work-experience .job-title {
+    font-weight: bold;
+  }
+  
+  .work-experience .employer {
+    font-style: italic;
+  }
+  
+  .work-experience .dates {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .work-experience .description {
+    margin-top: 10px;
+  }
+  
+/* Skills styles */
+.skills {
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    grid-gap: 10px; /* Adjust the gap between grid items */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills li {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    list-style-type: disc; /* Bullet points */
+  }
+  
+  /* Example styles for skill categories */
+  .skills .category {
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  /* Education styles */
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .education .degree {
+    font-weight: bold;
+  }
+  
+  .education .university {
+    font-style: italic;
+  }
+  
+  .education .dates {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Projects styles */
+  .projects {
+    margin-bottom: 20px;
+  }
+  
+  .projects .project-title {
+    font-weight: bold;
+  }
+  
+  .projects .description {
+    margin-top: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
